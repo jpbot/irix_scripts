@@ -10,7 +10,7 @@ Script to copy CD from optical drive to a directory and copy the blocks into a f
 
 --
 
-#####cpio_example#####
+#####[cpio_example](cpio_example.md)#####
 find . -depth -print|cpio -pdmv /share/share/others/disk2
 
 --
