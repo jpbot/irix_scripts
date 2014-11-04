@@ -69,6 +69,7 @@ then
   echo "=END============= DEBUG INFORMATION ================="
 fi
 
+# Checck that destination files/directory do not exist
 for file in $DDVH $DDSL $DDVOL $CPDIR
 do
   if [ -e $file ]
